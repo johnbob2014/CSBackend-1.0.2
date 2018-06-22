@@ -149,8 +149,8 @@ QNStats *defaultStatsManager = nil;
 	_systemName = [[UIDevice currentDevice] systemName];
 	_systemVersion = [[UIDevice currentDevice] systemVersion];
 #elif TARGET_OS_OSX
-	_phoneModel = @""
-	              _systemName = @"osx"
+    _phoneModel = @"";
+    _systemName = @"osx";
 	                            _systemVersion = @"";
 #else
 	_phoneModel = @"";
